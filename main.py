@@ -1,7 +1,5 @@
-import numpy as np
 import pandas as pd
 import requests
-import xlsxwriter
 import math
 from secrets import real_token
 
@@ -30,7 +28,7 @@ final_dataframe = final_dataframe.append(
     ignore_index=True
 )
 
-# print('Testing:\n')
+# print('Take 1:\n')
 # print(final_dataframe)
 
 
