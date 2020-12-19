@@ -60,7 +60,6 @@ for symbol_string in symbol_strings:
 
 # print(final_dataframe)
 
-
 portfolio_size = input('Enter the value of your portfolio: ')
 try:
     val = float(portfolio_size)
