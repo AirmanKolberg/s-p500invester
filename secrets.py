@@ -12,4 +12,4 @@ stocks_dictionary = {
     'AAPL': 4
 }
 
-stocks_list = ['TSLA', 'RTX', 'HON', 'KBR', 'AAPL']
+stocks_list = [TSLA, RTX, HON, KBR, AAPL]
