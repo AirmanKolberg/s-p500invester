@@ -190,11 +190,11 @@ while True:
                 message_2 = f"Cash on hand: ${money.__round__(2)}"
                 print(message_2)
                 hour = get_hour()
-            assess_asset(TSLA, 0)
-            assess_asset(RTX, 1)
-            assess_asset(HON, 2)
-            assess_asset(KBR, 3)
-            assess_asset(AAPL, 4)
+            
+            identifier = -1    
+            for stocks in object_list:
+                identifier += 1
+                assess_asset(stocks, identifier)
             sleep(60)
             hour = get_hour()
         today = get_weekday()
